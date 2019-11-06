@@ -1,33 +1,36 @@
 <html lang="pl">
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Todo list</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <form id="addForm" class="header">
-      <h2>My ToDo List</h2>
-      <input type="text" id="myInput" placeholder="Title...">
-      <button id="addTodo">Add</button>
+        <h2>My ToDo List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <button id="addTodo">Add</button>
     </form>
-      
+
     <ul id="list">
     </ul>
 
     <div id="myModal" class="modal">
 
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span id="closePopup" class="close">&times;</span>
-        <div>
-          <input type="text" id="popupInput" placeholder="Title...">
-          <button id="cancelTodo" class="addBtn">CANCEL</button>
-          <button id="acceptTodo" class="addBtn">OK</button>
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span id="closePopup" class="close">&times;</span>
+            <div>
+                <input type="text" id="popupInput" placeholder="Title...">
+                <button id="cancelTodo" class="addBtn">CANCEL</button>
+                <button id="acceptTodo" class="addBtn">OK</button>
+            </div>
         </div>
-      </div>
 
     </div>
-    <script src="scripts/script.js"></script>
-  </body>
+    <script src="script.js"></script>
+</body>
+
 </html>
